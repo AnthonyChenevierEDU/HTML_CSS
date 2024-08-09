@@ -1,0 +1,15 @@
+/* Flex Container */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: lightblue;
+}
+
+/* Flex Items */
+.flex-item {
+    flex: 1;
+    padding: 10px;
+    background-color: lightcoral;
+}

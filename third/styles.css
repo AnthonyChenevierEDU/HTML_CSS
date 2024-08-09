@@ -1,0 +1,33 @@
+/* Static Position */
+.static {
+    position: static;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* Relative Position */
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/* Absolute Position */
+.absolute {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+/* Fixed Position */
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: lightyellow;
+    padding: 10px;
+}

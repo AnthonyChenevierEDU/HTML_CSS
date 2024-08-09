@@ -1,0 +1,15 @@
+/* Tag selector */
+p {
+    color: blue;
+}
+
+/* ID selector */
+#special-section {
+    background-color: lightyellow;
+}
+
+/* Class selector */
+.normal-section {
+    border: 1px solid black;
+    padding: 10px;
+}

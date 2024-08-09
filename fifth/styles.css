@@ -1,0 +1,30 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+h1 {
+    color: navy;
+}
+
+p {
+    color: darkgreen;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    h1 {
+        color: darkred;
+    }
+
+    p {
+        color: darkblue;
+    }
+}

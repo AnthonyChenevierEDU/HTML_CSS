@@ -1,0 +1,23 @@
+/* Color property */
+.styled-section {
+    color: darkgreen;
+    background-color: lightgray;
+}
+
+/* Text property */
+.styled-section p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+/* Border property */
+.styled-section {
+    border: 2px solid navy;
+    border-radius: 10px;
+}
+
+/* Margin and Padding properties */
+.styled-section {
+    margin: 20px;
+    padding: 15px;
+}
