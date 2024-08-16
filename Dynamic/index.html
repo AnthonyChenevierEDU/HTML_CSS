@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Recommended meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <!-- PyScript CSS -->
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+        <link rel="stylesheet" href="./style.css">
+
+        <!-- This script tag bootstraps PyScript -->
+        <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+        <!-- loading screen JavaScript closes the loading dialog when python is ready -->
+        <script type="module">
+            const loading = document.getElementById("loading")
+            addEventListener("py:ready", () => loading.close())
+            loading.showModal()
+        </script>
+
+        <!-- webpage title (shows in browser tab) -->
+        <title>PyScript Dynamic Webpage Example</title>
+    </head>
+
+    <body>
+        <dialog id="loading"><h1>Loading Python environment...</h1></dialog>
+
+        <button type="submit" id="btn-color" py-click="cycle_color">Change Color</button>
+        <button type="submit" id="btn-text" py-click="change_text">Change Text</button>
+        <button type="submit" id="btn-font" py-click="change_font">Change Font</button>
+        <button type="submit" id="btn-size" py-click="change_text_size">Change Text Size</button>
+
+        <p id="changeable-paragraph">Hello, PyScript!</p>
+
+        <script type="py" src="main.py"></script>
+    </body>
+</html>
